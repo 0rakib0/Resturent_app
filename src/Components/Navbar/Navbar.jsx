@@ -16,16 +16,16 @@ const Navbar = () => {
             </div>
             <div className="flex">
                 <div className="relative">
-                    <input type="text" placeholder="Search audiobook" name="" id="" className="py-2 pl-8 mr-2 rounded-lg w-[400px]" />
+                    <input type="text" placeholder="Search audiobook" name="" id="" className="py-2 pl-8 mr-2 rounded-lg md:w-[400px]" />
                     <FaSearch className="absolute top-3 left-3 text-[#f99f1c]"></FaSearch>
                 </div>
                 <div className="relative">
-                    <div onClick={() => setOpenMenu(!openMenu)} className="bg-[#fefefe] pr-24 pl-4 py-2 rounded-lg">
+                    <div onClick={() => setOpenMenu(!openMenu)} className="bg-[#fefefe] md:pr-24 pr-12 pl-4 py-2 rounded-lg">
                         <p className="cursor-pointer">MENU</p>
                         {openMenu ? <FaAngleUp className="absolute top-3 right-6 text-[#f99f1c]"></FaAngleUp> :
                             <FaAngleDown className="absolute top-3 right-6 text-[#f99f1c]"></FaAngleDown>}
                     </div>
-                    {openMenu && <div className="absolute top-12 left-0 bg-[#fefefe] list-none py-2 w-[10rem] rounded-lg">
+                    {openMenu && <div className="absolute top-12 md:left-0 -left-12 bg-[#fefefe] list-none py-2 w-[10rem] rounded-lg">
                         <li className="hover:text-[#fd6011] hover:bg-[#eeeff0] cursor-pointer py-1 pl-1 w-full">Home</li>
                         <li className="hover:text-[#fd6011] hover:bg-[#eeeff0] cursor-pointer py-1 pl-1 w-full">Details</li>
                         <li className="hover:text-[#fd6011] hover:bg-[#eeeff0] cursor-pointer py-1 pl-1 w-full">Category</li>
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </div>}
                 </div>
             </div>
-            <div className="bg-[#fd6011] p-3 rounded-full">
+            <div className="bg-[#fd6011] p-3 rounded-full hidden">
                 <FaRegUser className="text-2xl text-white"></FaRegUser>
             </div>
         </div>

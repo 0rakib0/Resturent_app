@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='bg-[#eeeff0]'>
-      <div className='w-3/4  mx-auto py-4'>
+      <div className='md:w-3/4 md:px-0 px-2  mx-auto py-4'>
         <Navbar></Navbar>
         <h1>main Section</h1>
       </div>

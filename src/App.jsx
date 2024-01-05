@@ -2,19 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className='w-3/4 bg-red-300 mx-auto'>
+    <div className='bg-[#eeeff0]'>
+      <div className='w-3/4  mx-auto py-4'>
+        <Navbar></Navbar>
         <h1>main Section</h1>
       </div>
-      <div className='bg-green-300'>
+      <div className=''>
         <p>Footer section</p>
       </div>
-    </>
+    </div>
   )
 }
 

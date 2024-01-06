@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
             <div className="flex">
                 <div className="relative">
-                    <input type="text" placeholder="Search audiobook" name="" id="" className="py-2 pl-8 mr-2 rounded-lg md:w-[400px]" />
+                    <input type="text" placeholder="Search audiobook" name="" id="" className="py-2 pl-8 mr-2 rounded-lg md:w-[400px] focus:border-2 focus:border-red" />
                     <FaSearch className="absolute top-3 left-3 text-[#f99f1c]"></FaSearch>
                 </div>
                 <div className="relative">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </div>}
                 </div>
             </div>
-            <div className="bg-[#fd6011] p-3 rounded-full hidden">
+            <div className="bg-[#fd6011] p-3 rounded-full md:inline hidden">
                 <FaRegUser className="text-2xl text-white"></FaRegUser>
             </div>
         </div>

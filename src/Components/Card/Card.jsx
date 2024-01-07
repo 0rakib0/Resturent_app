@@ -4,7 +4,7 @@ const Card = ({ item }) => {
         <div className="ml-2 h-230px] overflow-hidden px-2">
             <div className="">
                 <img src={ImageUrl} alt=""  className="md:h-[250px] h-[200px] w-full rounded-xl"/>
-                <p className="text-center my-2 text-2xl">{Name}</p>
+                <p className="text-center my-2 text-xl">{Name}</p>
             </div>
         </div>
     )

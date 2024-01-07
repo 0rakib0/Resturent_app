@@ -61,7 +61,7 @@ const Recommended = () =>{
         <div className="mt-24 relative">
             <div className="w-11/12 flex items-center justify-between">
                 <p className="mb-6 text-2xl font-semibold">Recommended</p>
-                <button className="bg-none text-[#fd6011] mb-4 md:mr-0 mr-6">Add New</button>
+                <button className="bg-none text-[#fd6011] mb-4 lg:mr-0 mr-6">Add New</button>
             </div>
             <Slider {...settings}>
                 {

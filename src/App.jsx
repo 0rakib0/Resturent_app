@@ -15,7 +15,7 @@ function App() {
         <PopularProduct></PopularProduct>
         <Recommended></Recommended>
       </div>
-      <div className='bg-[#f99f1c]'>
+      <div className='bg-[#f99f1c] mt-24'>
         <Footer></Footer>
       </div>
     </div>

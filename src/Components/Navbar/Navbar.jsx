@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="flex justify-between items-center">
-            <div>
+            <div className="mr-2">
                 <h4 className="text-4xl font-bold">pti.</h4>
             </div>
             <div className="flex">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </div>}
                 </div>
             </div>
-            <div className="bg-[#fd6011] p-3 rounded-full md:inline hidden">
+            <div className="bg-[#fd6011] p-3 rounded-full lg:inline hidden">
                 <FaRegUser className="text-2xl text-white"></FaRegUser>
             </div>
         </div>

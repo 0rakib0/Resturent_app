@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import PopularProduct from './Components/PopularProduct/PopularProduct'
 import Recommended from './Components/Recomnded/Recommended'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -14,8 +15,8 @@ function App() {
         <PopularProduct></PopularProduct>
         <Recommended></Recommended>
       </div>
-      <div className=''>
-        <p>Footer section</p>
+      <div className='bg-[#f99f1c]'>
+        <Footer></Footer>
       </div>
     </div>
   )

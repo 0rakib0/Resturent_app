@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import PopularProduct from './Components/PopularProduct/PopularProduct'
+import Recommended from './Components/Recomnded/Recommended'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
         <PopularProduct></PopularProduct>
+        <Recommended></Recommended>
       </div>
       <div className=''>
         <p>Footer section</p>
